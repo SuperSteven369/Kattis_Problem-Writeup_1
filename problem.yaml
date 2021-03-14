@@ -5,8 +5,11 @@
 ## Author of the problem (default: null)
 author: Siyuan Yang
 
+## Name of the problem
+name: The King's New Monetary System
+
 ## Where the problem was first used (default: null)
-source: null
+# source: 
 # source_url:
 
 ## Who owns the rights to the problem (default: value of author, or
