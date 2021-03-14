@@ -1,8 +1,6 @@
 from sys import stdin
 import sys
-import re
 
-integer = "(0|-?[1-9]\d*)"
 MAXK = 100
 MAXINT = 10000
 cases = 0
@@ -12,7 +10,6 @@ while True:
     line2 = stdin.readline()
     if len(line1) == 0 or len(line2) == 0:
         break
-    assert re.match(integer + "\n", line1), "'%s' is not a integer" % line1
     num = int(line1)
     fv = [int(ele) for ele in line2.split(' ')]
     assert 1 <= num <= MAXK, "%s  not in [0, %s]" % (num, MAXK)
