@@ -24,7 +24,7 @@ keywords: DP, greedy
 
 # Indicate that we use a custom output validator instead of the
 # default token-based diff.
-validation: custom
+# validation: custom
 #  validator_flags: float_tolerance 1e-4
 
 # Override standard limits: say that the TLE solutions provided should
