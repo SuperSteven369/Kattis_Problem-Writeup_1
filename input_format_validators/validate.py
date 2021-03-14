@@ -1,11 +1,14 @@
 from sys import stdin
 import sys
+import re
 
+integer = "(0|-?[1-9]\d*)"
 MAXK = 100
 MAXINT = 10000
 cases = 0
 line0 = stdin.readline()
 num_cases = int(line0)
+assert re.match(integer + "\n", line0), "'%s' is not an integer" % line0
 assert 1 <= num_cases <= 100, "invalid number of cases %d not in [1, 100]" % num_cases
 
 while True:
