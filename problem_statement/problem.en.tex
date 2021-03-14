@@ -1,25 +1,13 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
+\problemname{The King's New Monetary System}
 
-\title{The King's New Monetary System}
-\author{Steven Yang}
-\date{March 2021}
-
-\begin{document}
-
-\maketitle
-
-\section{Problem Description}
 Once upon a time, there was a kingdom. The kingdom has its own monetary system: there are K face values, and the face values are respectively c[1], c[2], ..., c[K]. Since the king thinks some of the numbers are unlucky numbers and bans the use of them, not all prices can be presented by their face values. 
 \\*\\*
 For instance, if the monetary system has 3 face values, and they are respectively 2, 5, 11. In this case, 1 and 3 are unlucky numbers banned by the king and cannot be presented by these face values. Note that ``the king here hates the number 1 and 3" does not mean that any numbers that contain them would be banned (numbers like 13, 21 can still be used as prices). 
 \\*\\*
 For the convenience of the mint that issues coins, the king now decides to minimize the number of face values in order to optimize the current monetary system. He wants the optimized monetary system to function exactly the same as the one before: banning the unlucky numbers. Note that the optimal monetary system can have different face values from before such as d[1], d[2], ..., d[M] with an minimized M face values.
 
-\section{Input}
+\section*{Input}
 The first line of the input contains an integer N giving the number of test cases, 1 $\leq$ N  100. The following 2N lines specify the test cases, two lines per case: the first line gives a positive integer K $\leq$ 100 which is the number of face values, and the following line contains the K different positive integer face values: c[1], c[2], ..., c[K]. For any scenario, the highest face value is no greater than 10,000.
 
-\section{Output}
+\section*{Output}
 For each input case a single line should be output. The output should be a positive integer M that is the optimal number of face values.
-
-\end{document}
