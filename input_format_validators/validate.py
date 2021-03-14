@@ -4,6 +4,9 @@ import sys
 MAXK = 100
 MAXINT = 10000
 cases = 0
+line0 = stdin.readline()
+num_cases = int(line0)
+assert 1 <= num_cases <= 100, "invalid number of cases %d not in [1, 100]" % num_cases
 
 while True:
     line1 = stdin.readline()
